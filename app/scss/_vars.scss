@@ -1,0 +1,16 @@
+$link: #B777BE;
+$gray: #6A6A6A;
+$black: #000000;
+$gray2: #C6C6C6;
+$white: #FFFFFF;
+$bg-main: #F9F9F9;
+$bg: #F3F3F6;
+$hamburger-layer-color: #B777BE !default;
+
+// миксин для fancybox для файла jquery.fancybox так как он c раширением css
+@function max($numbers...) {
+    @return m#{a}x(#{$numbers});
+}
+@function min($numbers...) {
+    @return m#{i}n(#{$numbers});
+}

@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Стеклянные камни</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,500&family=Montserrat:wght@300;400;500;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+   
+  <header class="header">
+    <div class="container-fluid">
+      <div class="header__inner">
+        <div class="header__top">
+          <img src="images/location.svg" alt="icon: location" class="header__location">
+          <p class="header__city">Москва</p>
+          <div class="header__dealer-box">
+            <p class="header__dealer-text">В вашем городе нет дилера</p>
+            <a href="#" class="header__dealer-link">Станьте первым!</a>
+          </div>
+        </div>
+        <div class="header__logo">
+          <a href="index.html" class="header__logo-link">
+            <img src="images/logo.svg" alt="logo" class="header__images">
+          </a>
+        </div>
+        <div class="header__buttum">
+          <div class="header__phone-box">
+            <a href="#" class="header__phone-link">+7 (930)-032-01-11</a>
+            <a href="#" class="header__bell">Заказать обратный звонок</a>
+          </div>
+        </div>
+        <div class="header__social">
+          <a href="#" class="header__social-link">
+            <img src="images/icon-social-telegram.svg" alt="social" class="header__social-img">
+          </a>
+          <a href="#" class="header__social-link">
+            <img src="images/icon-social-vaiber.svg" alt="social" class="header__social-img">
+          </a>
+          <a href="#" class="header__social-link">
+            <img src="images/icon-social-watsaap.svg" alt="social" class="header__social-img">
+          </a>
+        </div>
+        <button class="hamburger hamburger--collapse is-active" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+        </button>
+      </div>
+    </div>
+    <div class="container container-none">
+      <div class="header__menu">
+        <nav class="header__menu-box">
+          <ul class="header__menu-list">
+            <li class="header__menu-item"><a href="catalog.html" class="header__menu-link">Каталог</a></li>
+            <li class="header__menu-item"><a href="dealers.html" class="header__menu-link">Дилерам</a></li>
+            <li class="header__menu-item"><a href="concept.html" class="header__menu-link">Идеи</a></li>
+            <li class="header__menu-item"><a href="company.html" class="header__menu-link">О компании</a></li>
+            <li class="header__menu-item"><a href="contacts.html" class="header__menu-link">Контакты</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+      
+  <section class="primary primary-delers"  style="background-image: url('images/dealers-bg.png');">
+    <div class="container">
+      <div class="primary__inner">
+        <div class="primary__content">
+          <h1 class="primary__title">Станьте единственным дилером</h1>
+          <p class="primary__text">цветного кускового стекла в своем регионе</p>
+          <div class="primary__advantages">
+            <div class="primary__advantages-item">
+              <p class="primary__advantages-text">Эксклюзивное дилерство в вашем регионе
+              </p>
+            </div>
+            <div class="primary__advantages-item">
+              <p class="primary__advantages-text">Гарантия лучшей цены</p>
+            </div>
+            <div class="primary__advantages-item">
+              <p class="primary__advantages-text">Маркетинговые материалы для увеличения продаж</p>
+            </div>
+          </div>
+          <a href="javascript:;" data-fancybox data-src="#modal" class="primary__btn dealers__btn">Узнать условия для дилеров
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 3L14 10L7.00003 17" stroke="white" stroke-width="2"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+       
+   <section class="dealers-advantages">
+     <div class="container">
+       <div class="dealers-advantages__inner">
+        <div class="dealers-advantages__content-item">
+          <img src="images/dealers-advantages-icon-1.svg" alt="glass-type-icon" class="dealers-advantages__content-item-img">
+          <p class="dealers-advantages__content-item-text">Более 20 цветов всегда в наличии - отгрузка
+            в течение 3-х дней после заказа</p>
+        </div>
+        <div class="dealers-advantages__content-item">
+          <img src="images/dealers-advantages-icon-2.svg" alt="glass-type-icon" class="dealers-advantages__content-item-img">
+          <p class="dealers-advantages__content-item-text">Поможем найти транспорт для доставки
+            по минимимальной цене</p>
+        </div>
+        <div class="dealers-advantages__content-item dealers-advantages__content-item--primary">
+          <img src="images/dealers-advantages-icon-3.svg" alt="glass-type-icon" class="dealers-advantages__content-item-img">
+          <p class="dealers-advantages__content-item-text">Заберем товар и вернем деньги, если вы не сможете его продать</p>
+        </div>
+       </div>
+     </div>
+   </section>
+
+   <section class="ideas delers-ideas">
+    <div class="container-fluid">
+      <div class="ideas__inner">
+        <h3 class="ideas__title">Аналогов вы не найдете
+          на рынке</h3>
+          <p class="ideas__text">Новый востребованный продукт с широкой сферой примениня:
+            от дизайна интерьера
+            до авторских инсталляций и украшения садовых участков
+            </p>
+        <div class="ideas__slider">
+          <div class="ideas__item">
+              <img src="images/ideas-slider-1.jpg" alt="ideas-img" class="ideas__images">
+          </div>
+          <div class="ideas__item">
+            <img src="images/ideas-slider-2.jpg" alt="ideas-img" class="ideas__images">
+        </div>
+        <div class="ideas__item">
+          <img src="images/ideas-slider-3.jpg" alt="ideas-img" class="ideas__images">
+        </div>
+      <div class="ideas__item">
+        <img src="images/ideas-slider-1.jpg" alt="ideas-img" class="ideas__images">
+      </div>
+          
+      <div class="ideas__item">
+        <img src="images/ideas-slider-1.jpg" alt="ideas-img" class="ideas__images">
+      </div>
+
+      <div class="ideas__item">
+        <img src="images/ideas-slider-2.jpg" alt="ideas-img" class="ideas__images">
+      </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <section class="glass-type glass-type-delers">
+    <div class="container">
+      <div class="glass-type__inner">
+        <div class="glass-type__content">
+          <h3 class="glass-type__title">Более 100 видов стекла 
+            всегда в наличии</h3>
+          <div class="glass-type__box">
+            <div class="glass-type__item">
+              <img src="images/glass-type-icon-1.svg" alt="glass-type-icon" class="glass-type__item-img">
+              <p class="glass-type__item-text">Любой цвет: от черного матового
+                до прозрачного бирюзового</p>
+            </div>
+            <div class="glass-type__item">
+              <img src="images/glass-type-icon-2.svg" alt="glass-type-icon" class="glass-type__item-img">
+              <p class="glass-type__item-text">Доступные диаметры от 2 мм до 300 мм</p>
+            </div>
+            <div class="glass-type__item">
+              <img src="images/glass-type-icon-3.svg" alt="glass-type-icon" class="glass-type__item-img">
+              <p class="glass-type__item-text">Любой оттенок из палитры RAL на заказ</p>
+            </div>
+          </div>
+        </div>
+        <div class="glass-type__images">
+          <img src="images/glass-type-bg.png" alt="glass-type" class="glass-type__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+ 
+  <section class="products products-delers">
+    <div class="container">
+      <div class="products__inner">
+        <div class="products__item">
+          <a class="products__item-link" href="product-card.html">
+            <img src="images/products__item-1.jpg" alt="products__item" class="products__item-images">
+            <div class="products__item__info">
+              <h6 class="products__item__info-title">Щебенка</h6>
+              <p class="products__item__info-price-old">60 руб/кг</p>
+              <a href="#" class="products__item__info-price">45 руб/кг</a>
+            </div>
+          </a>
+        </div>
+        <div class="products__item">
+          <a class="products__item-link" href="product-card.html">
+            <img src="images/products__item-2.png" alt="products__item" class="products__item-images">
+            <div class="products__item__info">
+              <h6 class="products__item__info-title">Обработанные камни</h6>
+              <p class="products__item__info-price-old">60 руб/кг</p>
+              <a href="#" class="products__item__info-price">39 руб/кг</a>
+            </div>
+          </a>
+        </div>
+        <div class="products__item">
+          <a class="products__item-link" href="product-card.html">
+            <img src="images/products__item-3.jpg" alt="products__item" class="products__item-images">
+            <div class="products__item__info">
+              <h6 class="products__item__info-title">Шарики</h6>
+              <p class="products__item__info-price-old">60 руб/кг</p>
+              <a href="#" class="products__item__info-price">120 руб/кг</a>
+            </div>
+          </a>
+        </div>
+        <div class="products__item">
+          <a class="products__item-link" href="product-card.html">
+            <img src="images/products__item-4.png" alt="products__item" class="products__item-images">
+            <div class="products__item__info">
+              <h6 class="products__item__info-title">Необработанные камни</h6>
+              <p class="products__item__info-price-old">60 руб/кг</p>
+              <a href="#" class="products__item__info-price">58 руб/кг</a>
+            </div>
+          </a>
+        </div>
+      </div>
+      <a href="catalog.html" class="products__btn">Cмотреть каталог
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M7 3L14 10L7.00003 17" stroke="black" stroke-width="2"/>
+        </svg>
+      </a>
+    </div>
+  </section>
+ 
+  <section class="purchase">
+    <div class="container">
+      <div class="purchase__inner">
+        <div class="purchase__content">
+          <p class="purchase__text">Вместе с первой партией камня вы получаете 3 цветных каталога с вариантами готовых идей в подарок.
+          </p>
+          <p class="purchase__text-two">Используйте готовые материалы для повышения ваших продаж.</p>
+          <a href="javascript:;" data-fancybox data-src="#modal" class="purchase__btn">Узнать условия закупки первой партии
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 3L14 10L7.00003 17" stroke="white" stroke-width="2"/>
+            </svg>
+          </a>
+        </div>
+        <div class="purchase__images">
+          <img src="images/purchase.png" alt="purchase" class="purchase__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider-video slider-video-dialers">
+    <div class="container">
+      <h3 class="slider-video__title">Посмотрите видео о нас и нашей продукции</h3>
+      <div class="slider-video__inner">
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-1.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Эрклез в интерьере </h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-2.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Оформление </h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-3.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Любые композиции</h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-1.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Эрклез в интерьере </h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-2.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Эрклез в интерьере </h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+        <div class="slider-video__item">
+          <div class="slider-video__box" style="background-image: url('images/slider-video-bg-3.png');">
+          <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="slider-video__item-popup">
+            <img class="slider-video__item-img" src="images/play.png" alt="icon: play-video">
+          </a>
+          </div>
+          <div class="slider-video__item-content">
+            <h4 class="slider-video__item-content-title">Эрклез в интерьере </h4>
+            <p class="slider-video__item-content-text">Кратко о чем видео</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="assortment">
+    <div class="container">
+      <div class="assortment__content">
+        <h3 class="assortment__title">Подберем ассортимент индивидуально под вас, предложим оптимальные объемы для вашего региона</h3>
+        <div class="assortment__inner">
+          <div class="assortment__box">
+              <p class="assortment__box-text">Более 30 дилеров из регионов уже с нами, мы получаем от них отзывы
+                и знаем, какие цвета продаются лучше и в каком объеме</p>
+              <p class="assortment__box-text">Первый заказ - фура 20 тонн, в которой стекло расфасовано по цветам (1 цвет = 1 тонна)
+              </p>
+              <p class="assortment__box-text">Всегда в наличии боле 20 разных цветов. 
+                Мы предлагаем вам самые популярные и продаваемые.
+                Все наши новинки отправляются к вам в первую очередь.
+                </p>
+              <p class="assortment__box-text">
+                Сроки отгрузки заказа 3-5 дней</p>
+          </div>
+          <div class="assortment__images">
+            <img src="images/assortment-img.jpg" alt="assortment" class="assortment__img">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="details">
+    <div class="container">
+      <div class="details__inner">
+        <div class="details__content">
+          <p class="details__text">Если вам нужен эксклюзивный цвет, которого нет в наличии, 
+            мы сделаем его на заказ.</p>
+          <p class="details__text-two">Сроки от 1 месяца в зависимости от объема.</p>
+          <a  href="javascript:;" data-fancybox data-src="#modal"
+          class="details__btn">Узнать подробности
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 3L14 10L7.00003 17" stroke="white" stroke-width="2"/>
+            </svg>
+          </a>
+        </div>
+        <div class="details__images">
+          <img src="images/details-img.png" alt="purchase" class="details__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="discounts">
+    <div class="container">
+      <div class="discounts__content">
+        <h3 class="discounts__title">Скидки при заказе от 20 тонн, если в вашем регионе ещё нет наших дилеров
+        </h3>
+        <p class="discounts__text">Мы заинтересованы в долгосрочном сотрудничестве с вами</p>
+        <div class="discounts__box">
+          <button class="discounts__btn">25 тонн - <span>5%</span></button>
+          <button class="discounts__btn">30 тонн - <span>10%</span></button>
+          <button class="discounts__btn">35 тонн - <span>15%</span></button>
+          <button class="discounts__btn">40 тонн - <span>20%</span></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="packaging">
+    <div class="container">
+      <div class="packaging__content">
+        <h3 class="packaging__title">Упаковка камня — его витрина</h3>
+        <p class="packaging__text">Вам не нужно перекладывать его - достаточно выгрузить и сразу поставить в торговый зал</p>
+        <div class="packaging__box">
+          <div class="packaging__item">
+            <div class="packaging__inner">
+              <div class="packaging__item-box">
+                <p class="packaging__item-box-text-one">Необработанные стеклянные камни упакованы в специальные прозрачные сетки
+                </p>
+                  <p class="packaging__item-box-text">— В одной сетке один цвет, но мы можем собрать упаковки из разных цветов и удобно разложить их, чтобы камни не смешивались.
+                  </p>
+                  <p class="packaging__item-box-text">— Камни можно мыть, не доставая из сетки, вода стечет вниз, оцинкованная сетка
+                    не заржавеет и не треснет.</p>
+              </div>
+              <div class="packaging__images">
+                <img src="images/packaging-img-1.png" alt="packaging" class="packaging__img">
+              </div>
+            </div>
+          </div>
+
+          <div class="packaging__item">
+            <div class="packaging__inner">
+              <div class="packaging__images-one">
+                <img src="images/packaging-img-2.png" alt="packaging" class="packaging__img">
+              </div>
+              <div class="packaging__item-box">
+                  <p class="packaging__item-box-text-one">Обработанные стеклянные камниупакованы в картонную коробку, каждый кусок
+                    обернут отдельно в пупырчатую пленку</p>
+                  <p class="packaging__item-box-text">— Не скалываются, не разбиваются при транспортировке. Остаются идеально гладкими, без острых углов</p>
+                  <p class="packaging__item-box-text">— В одной коробке один цвет</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="packaging__item">
+            <div class="packaging__inner">
+              <div class="packaging__item-box">
+                <p class="packaging__item-box-text-primary">Бесплатно загружаем 
+                  фуру с вашим заказом</p>
+                  <p class="packaging__item-box-text-two">помогаем найти транспорт для доставки по минимальной цене</p>
+                  <p class="packaging__item-box-text">У нас есть подрядчики, с которыми мы сотрудничаем уже 2 года, они предлагают нашим дилерам минимально возможные цены на доставку в ваш регион.
+                  </p>
+                  <p class="packaging__item-box-text">Водители знают, как обращаться с таким грузом, везут его аккуратно, доставляют в целости и сохранности.</p>
+              </div>
+              <div class="packaging__images-primary">
+                <img src="images/packaging-img-3.png" alt="packaging" class="packaging__img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="money-refund">
+    <div class="container">
+      <div class="money-refund__content">
+        <h3 class="money-refund__title">Если вы не сможете продать наш камень — без вопросов заберём его обратно и вернём деньги</h3>
+        <div class="money-refund__inner">
+          <div class="money-refund__content-item">
+            <img src="images/money-refund-icon-1.svg" alt="money-refund-icon" class="money-refund__content-item-img">
+            <p class="money-refund__content-item-text">Камень должен быть в надлежащем состоянии: не битый, не сколотый</p>
+          </div>
+          <div class="money-refund__content-item">
+            <img src="images/money-refund-icon-2.svg" alt="money-refund-icon" class="money-refund__content-item-img">
+            <p class="money-refund__content-item-text">Возвращаем деньги полностью, вычитаем расходы на доставку и разгрузку</p>
+          </div>
+          <div class="money-refund__content-item">
+            <img src="images/money-refund-icon-3.svg" alt="money-refund-icon" class="money-refund__content-item-img">
+            <p class="money-refund__content-item-text">Забираем камень без вопросов
+              и выяснений причин</p>
+          </div>
+          <div class="money-refund__content-item">
+            <img src="images/money-refund-icon-4.svg" alt="money-refund-icon" class="money-refund__content-item-img">
+            <p class="money-refund__content-item-text">Вы получаете оплату после того,
+              как мы примем камень</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="our-dealers">
+    <div class="container">
+      <h3 class="our-dealers__title">Мы тщательно подбираем наших дилеров, и хотим, чтобы они разделяли наши ценности</h3>
+
+      <div class="our-dealers__inner">
+        
+        <div class="our-dealers__content">
+          <div class="our-dealers__item">
+            <h4 class="our-dealers__item-title">Надёжность
+            </h4>
+            <p class="our-dealers__item-text">Четкое соблюдение договора, выполнение гарантийных обязательств</p>
+          </div>
+          <div class="our-dealers__item">
+            <h4 class="our-dealers__item-title">Уважение к клиенту</h4>
+            <p class="our-dealers__item-text">Искрення забота о клиенте, помощь в выборе решений</p>
+          </div>
+          <div class="our-dealers__item">
+            <h4 class="our-dealers__item-title">Заинтересованность в продукте</h4>
+            <p class="our-dealers__item-text">Желание продавать и зарабатывать, разработка и реализация маркетинговых стратегий</p>
+          </div>
+        </div>
+        <div class="our-dealers__stone">
+          <img src="images/our-dealers-bg.jpg" alt="term" class="our-dealers__images">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="questions">
+    <div class="container">
+      <div class="questions__box">
+        <img src="images/questions-bg.jpg" alt="questions-bg" class="questions__img">
+      </div>
+    </div>
+  </section>
+
+  <section class="term">
+    <div class="container">
+      <h3 class="term__title">Срок службы стеклянного камня не ограничен</h3>
+      <p class="term__text">Выдерживает от +50°C до -50°C, не требует специального ухода </p>
+      <div class="term__inner">
+        <div class="term__stone">
+          <img src="images/term-img.jpg" alt="term" class="term__images">
+        </div>
+        <div class="term__content">
+          <div class="term__item">
+            <h4 class="term__item-title">Экологически чистый продукт
+            </h4>
+            <p class="term__item-text">В процессе производства используем только натуральное окрашенное стекло.
+              Никаких синтетических смол и испарений.</p>
+          </div>
+          <div class="term__item">
+            <h4 class="term__item-title">Не боится палящего солнца, снега, града, дождя
+              и других осадков</h4>
+            <p class="term__item-text">Не трескается, не выцветает, не поддается гниению, коррозии, не обрастает мхом. Используется в помещении и на открытом воздухе.</p>
+          </div>
+          <div class="term__item">
+            <h4 class="term__item-title">Легок в уходе</h4>
+            <p class="term__item-text">В помещении его достаточно протереть влажной тряпкой от пыли. На улице — мыть с помощью KARHERа. Самоочищается во время дождя.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="certificates">
+    <div class="container">
+      <div class="certificates__inner">
+        <h3 class="certificates__title">На всю продукцию есть сертификаты соответствия</h3>
+        <div class="certificates__slider">
+          <div class="certificates__item">
+            <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+            <div class="certificates__item-box">
+              <h4 class="certificates__item-title">Название компании</h4>
+              <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+            </div>
+          </div>
+          <div class="certificates__item">
+           <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+           <div class="certificates__item-box">
+             <h4 class="certificates__item-title">Название компании</h4>
+             <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+           </div>
+         </div>
+         <div class="certificates__item">
+           <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+           <div class="certificates__item-box">
+             <h4 class="certificates__item-title">Название компании</h4>
+             <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+           </div>
+         </div>
+         <div class="certificates__item">
+           <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+           <div class="certificates__item-box">
+             <h4 class="certificates__item-title">Название компании</h4>
+             <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+           </div>
+         </div>
+         <div class="certificates__item">
+           <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+           <div class="certificates__item-box">
+             <h4 class="certificates__item-title">Название компании</h4>
+             <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+           </div>
+         </div>
+         <div class="certificates__item">
+           <img src="images/certificates__img.jpg" alt="certificates-item" class="certificates__item-img">
+           <div class="certificates__item-box">
+             <h4 class="certificates__item-title">Название компании</h4>
+             <p class="certificates__item-text">...Спасибо большое за ваш профессионализ и плодотворное сотрудничество...</p>
+           </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="video">
+    <div class="container">
+      <h3 class="video__title">Уникальный востребованный продукт<br>
+        на российском рынке</h3>
+      <p class="video__text">Ежегодно число наших клиентов увеличивается минимум вдвое</p>
+      <div class="video__box">
+        <a data-fancybox href="https://youtu.be/b4qC9tFDKPk" class="video__popup-play">
+          <p class="video__box-text">Посмотрите видео
+            о нашем производстве</p>
+          <img class="video__popup-img" src="images/play.png" alt="icon: play-video">
+          <p class="video__box-text-two">Время просмотра 60 секунд</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="call-to-action call-to-action-company">
+    <div class="container">
+      <div class="call-to-action__inner">
+        <div class="call-to-action__content">
+          <p class="call-to-action__text">Посетите наш шоурум и оцените продукт своими глазами. Запишитесь заранее, чтобы подобрать удобное время.</p>
+          <a  href="javascript:;" data-fancybox data-src="#modal"
+          class="call-to-action__btn">записаться
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7 3L14 10L7.00003 17" stroke="white" stroke-width="2"/>
+            </svg>
+          </a>
+        </div>
+        <div class="call-to-action__images">
+          <img src="images/call-to-action-img.jpg" alt="call-to-action-img" class="call-to-action__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="project-catalog project-catalog-dealers">
+    <div class="container">
+      <div class="project-catalog__inner">
+        <div class="project-catalog__imges-box">
+          <div class="project-catalog__box">
+              <h3 class="project-catalog__box-title">Всем новым дилерам:</h3>
+              <p class="project-catalog__box-text">Скидка 4% на первый заказ</p>
+              <p class="project-catalog__box-text-two">Дизайнерский сувенир в подарок</p>
+             
+              <img class="project-catalog__list-img" src="images/project-catalog-img.png" alt="manager">
+          </div>
+        </div>
+        <div class="project-catalog__content">
+          <h3 class="project-catalog__title">Станьте нашим дилером</h3>
+          <p class="project-catalog__text">и получите бонусы</p>
+          <form action="#" class="project-catalog__form">
+            <label class="project-catalog__label-name">
+              <input type="text" class="project-catalog__input-name" placeholder="Введите ваше имя">
+            </label>
+            <label class="project-catalog__label-email">
+              <input type="e-mail" class="project-catalog__input-email" placeholder="Введите свой e-mail">
+            </label>
+            <div class="project-catalog__social">
+              <a href="#" class="project-catalog__link"><img src="images/project-catalog-icon-telegram.svg" alt="icon-social" class="project-catalog__imges"></a>
+              <a href="#" class="project-catalog__link"><img src="images/project-catalog-icon-watsap.svg" alt="icon-social" class="project-catalog__imges"></a>
+              <a href="#" class="project-catalog__link"><img src="images/project-catalog-wiber.svg" alt="icon-social" class="project-catalog__imges"></a>
+            </div>
+            <button type="submit" class="project-catalog__btn">Хочу стать дилером</button>
+            <label class="project-catalog__label-checbox">
+              <input type="checkbox" class="project-catalog__input-checkbox">
+              Я даю согласие на обработку своих персональных данных согласно <span>политике конфиденциальности</span>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="asked-questions">
+    <div class="container">
+      <div class="asked-questions__inner">
+        <div class="asked-questions__content">
+          <h3 class="asked-questions__title">Часто задаваемые вопросы</h3>
+          <div class="characteristics" id="characteristics">
+              <ul class="characteristics__list">
+                <li class="characteristics__item">
+                  <button class="characteristics__title active" type="button">1. Сколько дилеров может быть в одном городе?</button>
+                  <div class="characteristics__description active">
+                    <ul class="characteristics__list-description">
+                      <li class="characteristics__item-description">
+                        <p>До пяти</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="characteristics__item">
+                  <button class="characteristics__title" type="button">2. Могу ли я ставить свои цены на ваш товар?</button>
+                  <div class="characteristics__description">
+                    <ul class="characteristics__list-description">
+                      <li class="characteristics__item-description">
+                        <p>Да цены можно устанавливать на свое усмотрение</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="characteristics__item">
+                  <button class="characteristics__title" type="button">3. Что если я хочу стать дилером, но в моем городе уже
+                    есть ваш дилер?</button>
+                  <div class="characteristics__description">
+                    <ul class="characteristics__list-description">
+                      <li class="characteristics__item-description">
+                        <p>Дилееров в одном городе может быть до пяти</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="characteristics__item">
+                  <button class="characteristics__title" type="button">4. Заключаете ли вы официальный договор с дилерами?</button>
+                  <div class="characteristics__description">
+                    <ul class="characteristics__list-description">
+                      <li class="characteristics__item-description">
+                        <p>Да договор неотъемлемая часть</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="characteristics__item">
+                  <button class="characteristics__title" type="button">Вы работаете по предоплате?</button>
+                  <div class="characteristics__description">
+                    <ul class="characteristics__list-description">
+                      <li class="characteristics__item-description">
+                        <p>Да конечно, после оформления договора</p>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            
+            </div>
+        </div>
+        <div class="asked-questions__imges">
+          <img src="images/asked-questions-bg.png" alt="asked-questions" class="asked-questions__img">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contacts">
+    <div class="container">
+      <div class="contacts__inner">
+        <div class="contacts__content">
+          <h3 class="contacts__content-title">Ждем вас по адресу</h3>
+          <p class="contacts__content-adress">Владимирская область, г. Гусь-Хрустальный,
+            ул.Суловская, дом 6
+            </p>
+          <a href="#" class="contacts__content-route">Построить маршрут
+          </a>
+          <p class="contacts__content-text">Позвоните нам</p>
+          <a href="#" class="contacts__content-phone">+7 (930) 032-01-11</a>
+          <p class="contacts__content-work-schedule">Ежедневно с 09:00 до 18:00</p>
+        </div>
+        <div class="contacts__map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15155.483476376276!2d40.62954342267576!3d55.62157160534086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x414be4374bcc439d%3A0xdd33ff1fada1c17f!2z0YPQuy4g0KHRg9C70L7QstGB0LrQsNGPLCA2LCDQk9GD0YHRjC3QpdGA0YPRgdGC0LDQu9GM0L3Ri9C5LCDQktC70LDQtNC40LzQuNGA0YHQutCw0Y8g0L7QsdC7LiwgNjAxNTA2!5e0!3m2!1sru!2sru!4v1634098633226!5m2!1sru!2sru" width="700" height="539" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__top-inner">
+          <div class="footer__top-item">
+            <div class="footer__logo">
+              <a href="#" class="footer__logo-link">
+                <img src="images/logo.svg" alt="logo" class="footer__logo-images">
+              </a>
+            </div>
+          </div>
+          <div class="footer__top-item">
+            <div class="footer__social-box">
+              <p class="footer__social-box-text">Присоединяйтесь к нам</p>
+              <nav class="footer__social-icon">
+                <ul class="footer__social-list">
+                  <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="images/facebook-icon.svg" alt="social-icon" class="footer__social-img"></a></li>
+                  <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="images/instagram-icon.svg" alt="social-icon" class="footer__social-img"></a></li>
+                  <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="images/vk-icon.svg" alt="social-icon" class="footer__social-img"></a></li>
+                  <li class="footer__social-item"><a href="#" class="footer__social-link"><img src="images/youtube-icon.svg" alt="social-icon" class="footer__social-img"></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__top-item">
+            <div class="footer__social-box-two">
+              <nav class="footer__social-icon-two">
+                <ul class="footer__social-list-two">
+                  <li class="footer__social-item-two"><a href="#" class="footer__social-link-two"><img src="images/icon-social-telegram.svg" alt="social-icon" class="footer__social-img-two"></a></li>
+                  <li class="footer__social-item-two"><a href="#" class="footer__social-link-two"><img src="images/icon-social-vaiber.svg" alt="social-icon" class="footer__social-img-two"></a></li>
+                  <li class="footer__social-item-two"><a href="#" class="footer__social-link-two"><img src="images/icon-social-watsaap.svg" alt="social-icon" class="footer__social-img-two"></a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="footer__top-item">
+            <div class="footer__phone">
+              <div class="footer__phone-box">
+                <a href="tel:79300320111" class="footer__phone-link">+7 (930)-032-01-11</a>
+                <a href="#" class="footer__bell">Заказать обратный звонок</a>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <p class="footer__protection">Все права защищены (с). Информация на сайте представлена в ознакомительном порядке. Не является публичной офертой.
+      </p>
+      <div class="footer__buttum">
+        <a href="#" class="footer__privacy">Политика конфиденциальности</a>
+        <div class="footer__registrations-box">
+        <p class="footer__registrations">ИНН: 88000000000</p>
+        <p class="footer__registrations">ИНН: 88000000000</p>
+        </div>
+        <a href="#" class="footer__development">
+          Разработка сайта: dima-lysak21.ru</a>
+      </div>
+    </div>
+  </footer>
+
+  <div id="modal">
+    <div class="login__wrapper">
+      <div class="login-catalog__content">
+        <h3 class="login__title">Обратный звонок</h3>
+        <p class="login__text">Мы перезвоним вам в течение 15 минут и уточним все детали</p>
+        <form action="#" class="login__form">
+          <label class="login__label-name">
+            <input type="text" class="login__input-name" placeholder="Введите ваше имя">
+          </label>
+          <label class="login__label-email">
+            <input type="e-mail" class="login__input-email" placeholder="Введите свой e-mail">
+          </label>
+          <p class="login__text-two">Вы также можете написать нам в любой мессенджер
+          </p>
+          <div class="login__social">
+            <a href="#" class="login__link"><img src="images/project-catalog-icon-telegram.svg" alt="icon-social" class="login__imges"></a>
+            <a href="#" class="login__link"><img src="images/project-catalog-icon-watsap.svg" alt="icon-social" class="login__imges"></a>
+            <a href="#" class="login__link"><img src="images/project-catalog-wiber.svg" alt="icon-social" class="login__imges"></a>
+          </div>
+          <button type="submit" class="login__btn">Хочу стать дилером</button>
+          <label class="login__label-checbox">
+            <input type="checkbox" class="login__input-checkbox">
+            Я даю согласие на обработку своих персональных данных согласно <span>политике конфиденциальности</span>
+          </label>
+        </form>
+      </div>
+    </div>
+</div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

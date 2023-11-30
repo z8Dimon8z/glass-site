@@ -1,0 +1,1138 @@
+@media(max-width: 1500px){
+    .catalog__products-box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discounts{
+        padding-top: 225px;
+    }
+    .questions__img{
+        width: 90%;
+    }
+}
+@media(max-width: 1350px){
+    .buy-stone__box{
+        flex-wrap: wrap;
+    }
+    .buy-stone__truck{
+        margin-bottom: 20px;
+    }
+    .buy-stone__link{
+        padding: 50px 50px 50px 273px;
+        width: 621px;
+    }
+    .primary__title{
+        font-size: 40px;
+        line-height: 39px;
+    }
+    .primary__text{
+        font-size: 29px;
+        margin-bottom: 31px;
+    }
+    .primary{
+        min-height: 489px;
+        padding-bottom: 71px;
+    }
+    .assortment{
+        padding-top: 0px;
+        padding-bottom: 48px;
+    }
+    .slider-video-dialers{
+        padding-bottom: 49px;
+    }
+}
+
+
+@media(max-width: 1300px){
+    .products__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .products__item{
+        // margin-bottom: 20px;
+        max-width: 293px;
+    }
+    .catalog__seo-inner{
+        flex-wrap: wrap;
+    }
+    .catalog__seo-images{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .catalog__inner{
+        padding-bottom: 15px;
+    }
+    .catalog__seo{
+        padding-bottom: 46px;
+    }
+    .dealers-advantages__inner{
+        flex-wrap: wrap;
+    }
+    
+    .dealers-advantages__content-item--primary{
+        margin: 0 auto;
+    }
+    .dealers-advantages{
+        padding-bottom: 50px;
+    }
+    .dealers-advantages__content-item{
+        margin-bottom: 30px;
+    }
+    .details{
+        height: 369px;
+        margin-top: 6px;
+        margin-bottom: 0;
+    }
+    .details__inner{
+        height: 426px;
+    }
+    .money-refund{
+        margin-bottom: 50px;
+    }
+    .money-refund__title{
+        font-size: 36px;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 1232px){
+    .dealers-advantages__content-item--primary{
+        width: 100%;
+    }
+    .dealers-advantages__content-item{
+        margin: 0 auto;
+    }
+    .dealers-advantages__content-item{
+        margin-bottom: 30px;
+    }
+    .details__inner{
+        flex-wrap: wrap;
+    }
+    .details__images{
+        margin-top: 30px;
+        margin: 0 auto;
+    }
+    .details__img{
+        width: 83%;
+    }
+    .details{
+        padding-top: 30px;
+    }
+    .our-dealers__stone::before{
+        background-image: none;
+    }
+    .our-dealers{
+        padding-bottom: 0;
+        margin-bottom: 48px;
+    }
+    .our-dealers__title{
+        font-size: 36px;
+        margin-bottom: 18px;
+    }
+    .our-dealers__item{
+        margin-bottom: 17px;
+        margin-right: 0px;
+    }
+    .our-dealers__inner{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .our-dealers__images{
+        margin: 0 auto;
+    }
+    .our-dealers__stone{
+        margin-right: 0;
+    }
+}
+@media(max-width: 1162px){
+    .term__title::before{
+        background-image: none;
+    }
+}
+@media(max-width: 1152px){
+    .term__stone::before{
+        bottom: -83px;
+        right: -137px;
+    }
+}
+@media(max-width: 1154px){
+    .contacts__content::before{
+        background-image: none;
+        right: 0;
+    }
+    .contacts__map iframe{
+        width: 500px;
+    }
+    .project-catalog__inner{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 1087px){
+    .primary__advantages-item{
+        max-width: 271px;
+        margin-bottom: 20px;
+    }
+    .primary__advantages{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .products{
+        padding-bottom: 24px;
+    }
+    .product-card__inner{
+        flex-wrap: wrap;
+    }
+    .product-card__box{
+        margin: 0 auto;
+    }
+    .product-card__content{
+        margin-top: 20px;
+    }
+}
+@media(max-width: 1154px){
+    .contacts__content::before{
+        background-image: none;
+    }
+    .contacts__map iframe{
+        width: 500px;
+    }
+    .packaging__images::before{
+        background-image: none;
+    }
+    .packaging__images-primary::before{
+        background-image: none;
+    }
+    .packaging__title{
+        font-size: 41px;
+        margin-bottom: 7px;
+    }
+    .packaging__text{
+        font-size: 15px;
+        margin-bottom: 29px;
+    }
+    .packaging__item-box-text-one{
+        font-size: 18px;
+    }
+    .packaging__item-box-text-primary{
+        font-size: 36px;
+    }
+    .packaging__item-box{
+        margin-right: 10px;
+    }
+    .packaging__images-one{
+        margin-right: 20px;
+    }
+    .packaging__img{
+        width: 90%;
+    }
+}
+@media(max-width: 1012px){
+    .term__stone::before{
+        bottom: 30px;
+        right: -115px;
+    }
+    .term__stone{
+        margin-right: 39px
+    }
+    .technologies__title{
+        font-size: 32px;
+        margin-bottom: 29px;
+    }
+    .technologies__img{
+        width: 90%;
+    }
+    .rock__inner{
+        display: none;
+    }
+    .breadcrubs__title{
+        font-size: 36px;
+    }
+    .workman__title{
+        margin-top: 0px;
+        font-size: 36px;
+    }
+    .workman__text{
+        font-size: 16px;
+    }
+    .workman{
+        padding-bottom: 15px;
+    }
+    .contacts__adrees{
+        padding-bottom: 30px;
+    }
+    .assortment__title{
+        font-size: 37px;
+    }
+    .assortment__box-text{
+        font-size: 16px;
+    }
+    .assortment__img{
+        width: 90%;
+    }
+    .packaging{
+        padding-bottom: 30px;
+    }
+}
+@media(max-width: 988px){
+    .term__inner{
+        flex-wrap: wrap;
+    }
+    .term__content{
+        order: -1;
+    }
+    .term__stone::before{
+        bottom: -158px;
+        right: -169px;
+    }
+    .video{
+        padding-bottom: 65px;
+    }
+    .call-to-action{
+        padding-bottom: 60px;
+    }
+    .call-to-action__inner{
+        flex-wrap: wrap;
+    }
+    .call-to-action__text{
+        text-align: center;
+    }
+    .call-to-action__btn{
+        margin: 0 auto;
+    }
+    .call-to-action__content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+    
+    .call-to-action__images{
+        margin: 0 auto;
+    }
+    .call-to-action__img{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .footer__top-inner{
+        flex-wrap: wrap;
+    }
+}
+@media(max-width: 925px){
+    .price-list__box{
+        display: none;
+    }
+    .ideas{
+        padding-bottom: 61px;
+    }
+    .managers__title{
+        font-size: 36px;
+        margin-bottom: 28px;
+    }
+    .certificates{
+        padding-bottom: 80px;
+    }
+    .managers{
+        padding-bottom: 13px;
+    }
+    .purchase__images{
+        display: none;
+    }
+    .purchase{
+        margin-top: 14px;
+        height: 355px;
+    }
+    .purchase__inner{
+        height: 332px;
+    }
+    .discounts__box{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .discounts__btn{
+        margin-bottom: 20px;
+        margin-right: 10px;
+        
+    }
+    .asked-questions__imges{
+        display: none;
+    }
+}
+@media(max-width: 887px){
+    .contacts__map iframe{
+        width: 400px;
+    }
+    .discounts__title{
+        font-size: 40px;
+        margin-bottom: 16px;
+    }
+    .discounts__text{
+        font-size: 17px;
+        margin-bottom: 23px;
+    }
+    .packaging__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .packaging__images-one{
+        order: 1;
+    }
+    .price-list__imges{
+        margin-right: 0;
+    }
+    
+}
+@media(max-width: 850px){
+    .header__city{
+        display: none;
+    }
+    .header__social{
+        display: none;
+    }
+    .header__location{
+        display: none;
+    }
+    .buy-stone{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .slider-video__title{
+        font-size: 35px;
+    }
+    .footer__top-inner{
+        justify-content: center;
+        align-items: center;
+    }
+    .footer__top-item{
+        margin-right: 20px;
+    }
+    .footer__social-icon-two{
+        padding-top: 22px;
+    }
+    .ideas{
+        padding-top: 43px;
+    }
+    .technologies__content-item-text{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .dealers-advantages{
+        padding-bottom: 0;
+    }
+    .money-refund__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .money-refund__content-item{
+        margin-bottom: 20px;
+    }
+    .project-catalog__list-img{
+        margin: 0 auto;
+        margin-right: 0;
+        width: 75%;
+    }
+}
+@media(max-width: 803px){
+    .slider-video__box{
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+}
+@media(max-width: 790px){
+    .primary__title{
+        font-size: 40px;
+        line-height: 38px;
+    }
+    .primary__text{
+        font-size: 30px;
+        line-height: 33px;
+        margin-bottom: 14px;
+    }
+    .primary__advantages{
+        margin-bottom: 10px;
+    }
+    .primary{
+        padding-bottom: 50px;
+        min-height: 500px;
+    }
+    .slider{
+        padding-bottom: 0;
+    }
+    .video{
+        padding-top: 33px;
+        padding-bottom: 33px;
+    }
+    .video__title{
+        font-size: 34px;
+    }
+    .video__text{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .video__box{
+        min-height: 300px;
+    }
+    .slider-video{
+        padding-bottom: 35px;
+    }
+    .contacts{
+        padding-bottom: 30px;
+    }
+    .contacts__inner{
+        flex-wrap: wrap;
+    }
+    .contacts__content{
+        width: 100%;
+    }
+    .contacts__map{
+        width: 100%;
+    }
+    .contacts__map iframe{
+        width: 100%;
+    }
+    .contacts__content{
+        height: 381px;
+    }
+    .aside{
+        display: none;
+    }
+    .catalog__content-box{
+        display: none;
+    }
+    .catalog__content{
+        margin-bottom: 47px;
+    }
+    .gallery__title{
+        margin-bottom: 27px;
+        font-size: 37px;
+    }
+    .phone-numbers__inner{
+        flex-wrap: wrap;
+    }
+    .phone-numbers__item{
+        margin-bottom: 20px;
+    }
+    .primary{
+        padding-top: 120px;
+    }
+    .assortment__inner{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .assortment__box-text{
+        width: 100%;
+    }
+    
+}
+
+@media(max-width: 700px){
+    .primary__advantages{
+        flex-direction: column;
+    }
+    .catalog__price{
+        flex-wrap: wrap;
+        border: none;
+    }
+    .catalog__price-content{
+        margin-bottom: 20px;
+    }
+    .technologies__content-box{
+        flex-direction: column;
+    }
+    .technologies__content-item{
+        margin-bottom: 20px;
+    }
+    .technologies__inner{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .technologies__img{
+        margin: 0 auto;
+    }
+    .unique-product{
+        padding-bottom: 51px;
+    }
+    .technologies{
+        padding-bottom: 45px;
+    }
+    .slick-dots-certificates{
+        right: 38%;
+    }
+
+}
+@media(max-width: 660px){
+    .header__dealer-box{
+        display: none;
+    }
+    .header__phone-box{
+        display: none;
+    }
+    .glass-type__title{
+        margin-top: 27px;
+        margin-bottom: 26px;
+    }
+    .glass-type__inner{
+        flex-wrap: wrap;
+    }
+    .glass-type__img{
+        width: 96%;
+    }
+    .term__images{
+        width: 98%;
+    }
+    .term__title{
+        font-size: 39px;
+    }
+    .term__text{
+        font-size: 14px;
+        margin-bottom: 27px;
+    }
+    .term__stone::before{
+        background-image: none;
+    }
+    .buy-stone__title{
+        font-size: 34px;
+    }
+    .buy-stone__text{
+        font-size: 16px;
+    }
+    .buy-stone__link{
+        padding-left: 106px;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+    }
+    .buy-stone__truck::before{
+        top: 17px;
+        left: 6px
+    }
+    .buy-stone__world::before{
+        top: 3px;
+        left: 6px
+    }
+    .slider-video{
+        padding-bottom: 30px;
+    }
+    .footer__registrations-box{
+        display: none;
+    }
+    .slick-dots-cart{
+        right: 43%;
+    }
+    .gallery__items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .project-catalog__content{
+        max-width: 461px;
+        padding: 27px 48px;
+    }
+    .project-catalog__title{
+        font-size: 32px;
+    }
+    .project-catalog__imges{
+        margin-right: 26px;
+    }
+    .unique-product__title{
+        font-size: 34px;
+        margin-bottom: 19px;
+    }
+    .breadcrubs{
+        padding-bottom: 0px;
+    }
+    .primary__title{
+        font-size: 28px;
+    }
+    .primary__text{
+        font-size: 23px;
+    }
+    .purchase__text{
+        width: 100%;
+    }
+    .purchase__btn{
+        width: 100%;
+    }
+    .purchase__inner{
+        height: 450px;
+    }
+    .purchase{
+        height: 430px;
+    }
+    .questions{
+        display: none;
+    }
+    .our-dealers__images{
+        width: 90%;
+    }
+}
+@media(max-width: 599px){
+    .assortment__title{
+        font-size: 33px;
+    }
+    .assortment__box-text{
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .discounts__title{
+        font-size: 32px;
+    }
+    .discounts{
+        padding-top: 176px;
+        padding-bottom: 27px;
+    }
+    .discounts__btn{
+        font-size: 14px;
+        margin-right: 10px;
+    }
+    .project-catalog-dealers{
+        padding-bottom: 50px;
+    }
+    .asked-questions__title{
+        font-size: 36px;
+    }
+    .asked-questions{
+        padding-bottom: 34px;
+    }
+    .product-card__slider-images{
+        width: 90%;
+    }
+    .product-card__thumbs{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .product-card__box{
+        width: 400px;
+    }
+}
+
+
+@media(max-width: 540px){
+    .gallery__btn{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .breadcrubs__title{
+        font-size: 38px;
+    }
+    .ideas__title{
+        font-size: 38px;
+        margin-bottom: 16px;
+    }
+    
+}
+
+@media(max-width: 525px){
+    .hamburger{
+        display: block;
+        color: $hamburger-layer-color;
+    }
+    .container-none{
+        height: 0;
+        padding: 0;
+    }
+    .header__inner{
+        padding-top: 10px;
+        padding-bottom: 0px;
+    }
+    .header__images{
+        z-index: 10;
+    }
+    .header__menu{
+        background-color: #fff;
+        transform: translateY(-500px);
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+        transition: all .5s;
+        z-index: 1000;
+    }
+    .header__menu--active{
+        transform: translateY(0px);
+        z-index: 1000;
+        background-color: #fff;
+    }
+    
+    .header__menu-list{
+        display: block;
+        z-index: 1000;
+        background-color: #fff;
+        z-index: 1000;
+    }
+    .header__menu-item{
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+        z-index: 1000;
+        background-color: #fff;
+    }
+    .slider{
+        padding-top: 26px;
+        padding-bottom: 30px;
+    }
+    .slider__title{
+        font-size: 35px;
+    }
+    .glass-type__title{
+        font-size: 35px;
+    }
+    .glass-type__item{
+        width: 100%;
+    }
+    .glass-type__item-img{
+        margin-right: 10px;
+    }
+    .footer__top-item{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer__top-inner{
+        justify-content: center;
+    }
+    .product-card__thumbs-item{
+        width: 100%;
+    }
+    .product-card__content-btn-box{
+        display: flex;
+        flex-direction: column;
+    }
+    .product-card__quantity{
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .product-card__content-input{
+        width: 100%;
+    }
+    .product-card__content-btn{
+        margin-left: 27px;
+    }
+    .product-card__content-btn-cart{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    .product-card__thumbs .slick-track div + div {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .product-card__thumbs-item{
+        margin-right: 0;
+    }
+    .price-list__title{
+        font-size: 37px;
+    }
+    .price-list__text{
+        font-size: 14px;
+    }
+    .project-catalog__list-img{
+        width: 154%;
+    }
+    .certificates__title{
+        font-size: 34px;
+    }
+    .certificates__text{
+        font-size: 15px;
+        margin-bottom: 16px;
+    }
+    .catalog__price{
+        z-index: 1;
+        padding-top: 73px;
+    }
+    .breadcrubs__title{
+        margin-top: 70px;
+    }
+    .product-card{
+        padding-top: 90px;
+    }
+    .term{
+    }
+    .slider-video-dialers{
+        padding-top: 35px;
+    }
+}
+@media(max-width: 506px){
+    .project-catalog__content{
+        background: none;
+        border: none;
+        filter: none;
+        max-width: 100%;
+        width: 100%;
+    }
+    .project-catalog__input-name{
+        width: 100%;
+    }
+    .project-catalog__input-email{
+        width: 100%;
+    }
+    .project-catalog__btn{
+        width: 100%;
+    }
+    .packaging__title{
+        font-size: 36px;
+    }
+    .packaging__item-box-text-primary{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media(max-width: 473px){
+    .price-list__input-name{
+        width: 300px;
+    }
+    .price-list__input-email{
+        width: 300px;
+    }
+    .price-list__btn{
+        width: 300px;
+        padding: 7px 62px;
+    }
+    .price-list__label-checbox{
+        width: 300px;
+    }
+}
+
+@media(max-width: 452px){
+    .slider__box{
+        width: 250px;
+    }
+    .slider__item{
+        min-height: 350px;
+    }
+    .term{
+        padding-bottom: 45px;
+    }
+    .term__stone{
+        margin-right: 0;
+    }
+    .buy-stone__truck::before{
+        background-image: none;
+    }
+    .buy-stone__world::before{
+        background-image: none;
+    }
+    .buy-stone__link{
+        padding: 10px;
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .video__box-text{
+        font-size: 14px;
+        margin-bottom: 13px;
+    }
+    .contacts__map iframe{
+        height: 300px;
+    }
+    .contacts__content{
+        height: 368px;
+    }
+    .footer__buttum{
+        flex-wrap: wrap;
+    }
+    .footer__privacy{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+    .footer__development{
+        margin: 0 auto;
+        margin-bottom: 20px;
+        text-align: center;
+        display: block;
+    }
+    .catalog__seo-title{
+        font-size: 40px;
+    }
+    .product-card__thumbs{
+        display: none;
+    }
+    .product-card__slider{
+        min-height: 240px;
+    }
+    .product-card__content-title{
+        font-size: 37px;
+        margin-bottom: 20px;
+        width: 100%;
+        line-height: 100%;
+    }
+    .slick-dots-cart{
+        right: 34%;
+    }
+    .ideas__title{
+        font-size: 36px;
+        margin-bottom: 29px;
+    }
+    .project-catalog__title{
+        width: 100%;
+    }
+    .project-catalog__text{
+        font-size: 15px;
+    }
+    .dealers__btn{
+        width: 300px;
+    }
+    .dealers-advantages{
+        padding-bottom: 0px;
+    }
+    .our-dealers__title{
+        font-size: 30px;
+    }
+    .product-card__box{
+        width: 300px;
+    }
+
+}
+@media(max-width: 420px){
+    .project-catalog__list-img{
+        display: none;
+    }
+    .project-catalog__box{
+        display: none;
+    }
+    .project-catalog{
+        padding-bottom: 0;
+    }
+    .project-catalog__content{
+        padding: 27px 7px;
+    }
+}
+@media(max-width: 390px){
+    .glass-type__title{
+        margin-top: 0;
+    }
+    .glass-type {
+	padding-bottom: 17px;
+    }
+    .products{
+        padding-bottom: 31px;
+    }
+    .products__inner{
+        margin-bottom: 20px;
+    }
+    .buy-stone__box{
+        justify-content: center;
+    }
+    .buy-stone__link{
+        margin-right: 0;
+    }
+    .contacts__content{
+        height: 500px;
+        padding-bottom: 50px;
+    }
+    .price-list__input-name{
+        width: 270px;
+    }
+    .price-list__input-email{
+        width: 270px;
+    }
+    .price-list__btn{
+        width: 270px;
+        padding: 7px 62px;
+    }
+    .price-list__label-checbox{
+        width: 270px;
+    }
+    .gallery__title{
+        font-size: 30px;
+    }
+    .breadcrubs{
+        padding-bottom: 16px;
+    }
+    .breadcrubs__list{
+        margin-bottom: 0;
+    }
+    .unique-product__title{
+        font-size: 26px;
+    }
+    .technologies__title{
+        font-size: 26px;
+    }
+    .slick-dots-certificates{
+        right: 30%;
+    }
+    .certificates__title{
+        font-size: 27px;
+    }
+    .managers__title{
+        font-size: 32px;
+    }
+    .purchase__btn{
+        padding: 10px;
+    }
+    .assortment__title{
+        font-size: 28px;
+    }
+    .details__btn{
+        width: 100%;
+    }
+    .details__btn{
+        font-size: 11px;
+    }
+    .details__content{
+        margin-bottom: 30px;
+    }
+    .discounts__title{
+        font-size: 26px;
+    }
+    .packaging__title{
+        font-size: 30px;
+    }
+    .money-refund__title{
+        font-size: 29px;
+    }
+    .money-refund{
+        padding-top: 33px;
+        padding-bottom: 19px;
+    }
+    .our-dealers__item-title{
+        font-size: 19px;
+    }
+    .our-dealers__item-text{
+        font-size: 14px;
+    }
+    .characteristics__title{
+        font-size: 14px;
+    }
+    .characteristics__item-description p{
+        font-size: 14px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    .characteristics__item-description p:last-child{
+        text-align: start;
+    }
+    .project-catalog__label-checbox{
+        width: 100%;
+    }
+    
+}
+@media(max-width: 320px){
+    .primary__title{
+        font-size: 28px;
+    }
+    .video__box{
+        min-height: 220px;
+    }
+    .video__title{
+        font-size: 30px;
+    }
+    .primary__btn{
+        padding: 17px 53px 17px 18px;
+    }
+    .call-to-action__text{
+        font-size: 16px;
+    }
+    .slick-dots-cart{
+        right: 25%;
+    }
+    
+
+}

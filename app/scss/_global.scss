@@ -1,0 +1,43 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: $link;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    display: inline-block;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    color: $black;
+    overflow-x: hidden;
+	background-color: $white;
+}
+
+.container{
+	max-width: 1353px;
+	margin: 0 auto;
+	padding: 0 15px;
+  }
+.container-fluid{
+	  max-width: 1920px;
+	  margin: 0 auto;
+	  padding: 0 10px;
+  }
